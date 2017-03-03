@@ -1,0 +1,75 @@
+
+h1 {
+	font-weight: 600;
+	text-align: center;
+	font-family: 'Diplomata SC', cursive;
+	font-size: 200%
+	line-height: 2em;
+}	
+
+h2 {
+	font-weight: 480;
+	font-family: 'Supermercado One', cursive;
+	text-align: center;
+}
+
+h3 {font-weight: 450;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+h3 {text-align: center;
+	font-family: 'Hind', sans-serif;
+}
+a {
+	text-decoration: none;
+}
+
+aside {
+	text-align: center;
+	padding: 20px 0;
+
+}
+main{
+	padding: 20px 0;
+}
+
+img {
+	height: 400px;
+	width: 50%;
+	background-color: #7FFFD4;
+}
+
+body {
+	background-color: lightblue;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 62%
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
